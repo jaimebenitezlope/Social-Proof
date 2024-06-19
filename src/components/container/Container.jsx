@@ -1,4 +1,5 @@
 import Header from "../header/Header";
+import Targets from "../targets/Targets";
 import { StyledDiv } from "./container.styles";
 
 const Container = ()=>{
@@ -6,6 +7,7 @@ const Container = ()=>{
         <>
         <StyledDiv>
             <Header/>
+            <Targets/>
         </StyledDiv>
         
         </>

@@ -1,14 +1,13 @@
-import HeaderTitle from "../headerTitle/HeaderTitle"
+import HeaderStars from '../headerStars/HeaderStars';
+import HeaderTitle from '../headerTitle/HeaderTitle';
 
+const Header = () => {
+	return (
+		<>
+			<HeaderTitle />
+			<HeaderStars />
+		</>
+	);
+};
 
-const Header = ()=>{
-    return (
-
-        <HeaderTitle/>
-
-
-        
-    )
-}
-
-export default Header
+export default Header;

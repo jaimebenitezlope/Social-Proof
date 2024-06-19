@@ -1,5 +1,5 @@
-import { StyledDiv } from "../container/container.styles";
-import { StyledH1, StyledP } from "../header/header.styles";
+import { StyledDiv, StyledH1, StyledP } from "./headerTitle.styles";
+
 
 const HeaderTitle =()=>{
     return <>
